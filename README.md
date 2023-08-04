@@ -1,7 +1,10 @@
 # CreepDetector
-Heck off, creeps
+Detect stalkers using wardriving!
 
-This Jupyter Notebook script identifies MAC addresses following you between different locations using wardriving data.
+This Python script detects if someone is following you, by using wardriving data to determine if a unique MAC address appears at multiple locations.  This works by sniffing for Probe Requests, a type of WiFi frame that reveals networks you've joined in the past!  
+
+## Tools
+We use Jupyter Notebook for this proof-of-concept to visualize the data, and the `Folium` mapping library as well as `Pandas` for data analysis.  You can try out this example in [Google CoLab](https://colab.research.google.com)
 
 ## Snapshots
 <p align="center">
@@ -18,6 +21,5 @@ This Jupyter Notebook script identifies MAC addresses following you between diff
 </p>
 
 ## Documentation
-[Detecting Stalkers over Wi-Fi SecurityFWD Episode](https://www.youtube.com/watch?v=wNke7teywOs)  
-[CreepDetector Code Breakdown Video](https://youtu.be/ug9dHwm3h0s)  
-[CreepDetector Blog Post](http://alexlynd.com/projects/CreepDetector/)
+[Detecting Stalkers over Wi-Fi Episode](https://www.youtube.com/watch?v=wNke7teywOs)  
+[Alex's Code Breakdown Episode](https://youtu.be/ug9dHwm3h0s)  
