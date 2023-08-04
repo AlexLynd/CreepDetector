@@ -1,5 +1,4 @@
-# CreepDetector
-Detect stalkers using wardriving!
+# CreepDetector: Detect Stalkers with Wardriving!
 
 This Python script detects if someone is following you, by using wardriving data to determine if a unique MAC address appears at multiple locations.  This works by sniffing for Probe Requests, a type of WiFi frame that reveals networks you've joined in the past!  
 
