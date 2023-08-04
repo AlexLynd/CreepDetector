@@ -5,6 +5,7 @@ This Python script detects if someone is following you, by using wardriving data
 
 ## Tools
 We use Jupyter Notebook for this proof-of-concept to visualize the data, and the `Folium` mapping library as well as `Pandas` for data analysis.  You can try out this example in [Google CoLab](https://colab.research.google.com)
+The data capture in this demo uses [Kismet Wireless](https://www.kismetwireless.net/) on a Raspberry Pi.
 
 ## Snapshots
 <p align="center">
